@@ -18,7 +18,7 @@ var (
 )
 
 // Hybrid returns a Resolver that retrieves values from a supported structured
-// datasource. JSON and YAML are supported.
+// datasource. JSON, YAML and TOML are supported.
 //
 // Hyphens in flag names are replaced with underscores.
 func Hybrid(r io.Reader) (kong.Resolver, error) {
